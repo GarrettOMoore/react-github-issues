@@ -1,3 +1,9 @@
+body {
+  background-color: #EFF2E2;
+  margin: -5px;
+  color: #282E33;
+}
+
 .App {
   text-align: center;
 }
@@ -16,12 +22,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -30,4 +33,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bolder;
+  font-style: italic;
+  border: 2px solid #282c34;
+  font-family: 'Merriweather', serif;
+  padding: 10px;
+}
+
+.link {
+
+  color: #282c34;
+}
+
+.body {
+  margin: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+.issue-number {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.user {
+  font-size: 26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.info-main {
+  border-bottom: 2px solid #EFF2E2;
+  text-align: center;
+    list-style-position: inside;
+}
+
+img {
+  height: 60px;
+  width: 100%;
+}
+
+button {
+  height: 100px;
+  font-size: 43px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 20px;
+  border: 2px solid #282c34;
+}
+
+.button {
+  color: #282c34;
+  text-decoration: none;
+}
+
+.user-pic {
+  border: 2px solid #282c34;
+  border-radius: 30%;
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.arrow {
+  height: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#bottom {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+}
+
+
+nav {
+  font-size: 40px;
+}
+
+.home {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.back {
+  text-decoration: none;
+  color: #282c34;
+  font-size: 43px;
+}
+
+.link-icon {
+  margin: 10px;
 }
